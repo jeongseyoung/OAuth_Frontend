@@ -1,0 +1,107 @@
+.input-box {
+  display: flex;
+  flex-direction: column;
+
+  gap: 8px;
+}
+
+.input-box-title {
+  color: coral;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 140%;
+
+  cursor: default;
+}
+
+.input-box-content {
+  display: flex;
+  flex-direction: column;
+
+  gap: 4px;
+}
+
+.input-box-body {
+  display: flex;
+  /* flex-wrap: wrap; */
+
+  gap: 10px;
+}
+
+.input-box-input {
+  flex: 1; /*빈곳을 전부 채우기?*/
+
+  border: 1px solid rgba(240, 240, 240, 1);
+  border-radius: 6px;
+  padding: 8px 16px;
+
+  outline: none;
+
+  background-color: beige;
+
+  font-family: Inter;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 175%;
+}
+
+.input-box-input::placeholder {
+  color: darkslategrey;
+
+  font-family: Inter;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 175%;
+}
+
+.input-box-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 5px;
+  width: 110px;
+  height: 50px;
+  background-color: aqua;
+
+  font-size: 16px;
+  font-weight: 400 lineh 160%;
+  cursor: pointer;
+}
+
+.input-box-button:hover {
+  background-color: aquamarine;
+}
+
+.input-box-button-disable {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 5px;
+  width: 110px;
+  height: 50px;
+  background-color: rgb(143, 140, 140);
+
+  color: rgb(0, 0, 0);
+
+  font-size: 16px;
+  font-weight: 400 lineh 160%;
+  cursor: pointer;
+}
+
+.input-box-message {
+  color: coral;
+
+  font-size: 16px;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.input-box-message.error {
+  color: red;
+
+  font-size: 16px;
+  font-weight: 400;
+  line-height: normal;
+}
