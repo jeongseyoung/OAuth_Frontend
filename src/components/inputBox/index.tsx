@@ -13,7 +13,7 @@ interface Props {
   onKeyDown?: (event: KeyboardEvent<HTMLInputElement>) => void;
   onButtonClick?: () => void;
 }
-
+  
 export const InputBox = forwardRef<HTMLInputElement, Props>(
   (props: Props, ref) => {
     const {
