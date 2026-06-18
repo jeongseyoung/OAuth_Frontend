@@ -13,5 +13,5 @@ enum ResponseMessage {
 
   MAIL_SEND_FAIL = "MAIL SEND FAILED",
 }
-
+  
 export { ResponseMessage };
