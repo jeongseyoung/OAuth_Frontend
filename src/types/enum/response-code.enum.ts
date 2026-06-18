@@ -13,5 +13,5 @@ enum ResponseCode {
 
   MAIL_SEND_FAILED = "MSF",
 }
-
+  
 export default ResponseCode;
