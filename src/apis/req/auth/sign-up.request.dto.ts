@@ -4,3 +4,4 @@ export default interface SignUpRequestDto {
   email: string;
   certificationNumber: string;
 }
+    
