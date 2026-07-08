@@ -12,6 +12,7 @@ enum ResponseCode {
   DATABASE_ERROR = "DBE",
 
   MAIL_SEND_FAILED = "MSF",
+  //MAIL_SEND_FAILED = "MSF",
 }
   
 export default ResponseCode;
